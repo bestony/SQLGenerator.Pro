@@ -2,7 +2,7 @@
   <div id="app">
   <el-container>
     <el-header class="sql-header"><Menu></Menu></el-header>
-    <el-main><CreateUser></CreateUser></el-main>
+    <el-main><CreateUser username="username" password="password" host="host" database="database"></CreateUser></el-main>
     <el-footer>Designed By <a target="_blank" href="https://www.ixiqin.com">@bestony</a></el-footer>
   </el-container>
   </div>
@@ -17,6 +17,12 @@ export default {
   name: 'app',
   components: {
     Menu,CreateUser
+  },
+  data:{
+    username:'',
+    password:'',
+    host:'',
+    database:''
   }
 }
 </script>

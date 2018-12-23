@@ -1,7 +1,6 @@
 <template>
   <div class="hello">
   <el-menu
-  :default-active="activeIndex2"
   mode="horizontal"
   background-color="#545c64"
   text-color="#fff"
