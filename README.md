@@ -1,4 +1,4 @@
-# sqlgeneratorpro
+# SQL Generator Pro
 
 ## Project setup
 ```
