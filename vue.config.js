@@ -3,5 +3,13 @@ module.exports = {
     devServer: {
         disableHostCheck: true
        
-    }
+    },
+
+    baseUrl: undefined,
+    outputDir: 'docs',
+    assetsDir: undefined,
+    runtimeCompiler: true,
+    productionSourceMap: undefined,
+    parallel: undefined,
+    css: undefined
 }
